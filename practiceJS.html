@@ -14,15 +14,14 @@
 
           let locationMap = ['Walmart', 'Bestbuy','Radioshack','BHElectronics'];
 
-            let btnSorry = document.getElementById(submitOrder).onclick = function() {
-              const msgReturned = alert('Sorry, the scalpers took them all!')
-            } else {
-              alert('There are rtx cards! Go to this ' + location[i])
-              }
+            let btnSorry = document.getElementById('submitOrder').onclick = function() {
+              const msgReturned = prompt('Sorry, the scalpers took them all!')
             }
 
             if (msgReturned !== 'There are RTX cards go to this') {
-
+        
+              alert('There are rtx cards! Go to this ' + location[i])
+              }
             }
 
         </script>
